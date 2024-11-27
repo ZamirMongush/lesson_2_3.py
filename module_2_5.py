@@ -32,7 +32,7 @@ def get_matrix(n, m, value):
     matrix = []
     for i in range(n):
         row = []
-        for j in range(m):
+        for my in range(m):
             row.append(value)
         matrix.append(row)
     return matrix
